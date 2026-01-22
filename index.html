@@ -123,7 +123,7 @@
         const item = document.createElement("div");
         item.className = "item";
         item.innerHTML =
-          `<div class="frame"><iframe src="https://www.youtube.com/embed/${id}?rel=0&modestbranding=1" title="LD ${i+1}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>`;
+          `<div class="frame"><iframe tabindex="-1" src="https://www.youtube.com/embed/${id}?rel=0&modestbranding=1" title="SD ${i+1}" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>`;
         return item;
       };
 
